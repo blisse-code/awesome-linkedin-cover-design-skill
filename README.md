@@ -43,10 +43,11 @@ What you should have ready:
 ## Install
 
 **Claude (web, desktop, mobile)**
-1. Download `linkedin-cover-copartner.zip` from this repo.
-2. In Claude, open **Customize > Skills**.
-3. Click **+**, then **Create skill**, then **Upload a skill**, and choose the ZIP.
-4. Make sure the skill is toggled on.
+1. On this repo's page, click **Code > Download ZIP** and unzip it.
+2. Zip just the `skill/linkedin-cover-copartner` folder (on macOS: right-click the folder > Compress).
+3. In Claude, open **Customize > Skills**.
+4. Click **+**, then **Create skill**, then **Upload a skill**, and choose that ZIP.
+5. Make sure the skill is toggled on.
 
 **Claude Code**
 Copy the `skill/linkedin-cover-copartner` folder into your skills directory (for example `~/.claude/skills/`).
@@ -151,8 +152,6 @@ skill/linkedin-cover-copartner/
 └── scripts/
     ├── simulate_views.py            renders desktop, mobile and side-panel previews
     └── measure_from_screenshot.py   converts screenshot measurements to banner coordinates
-linkedin-cover-copartner.zip         upload this to Claude
-linkedin-cover-copartner.skill       same skill, packaged format
 examples/                            final banners and view simulations
 ```
 
