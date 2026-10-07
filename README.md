@@ -44,13 +44,13 @@ What you should have ready:
 
 **Claude (web, desktop, mobile)**
 1. On this repo's page, click **Code > Download ZIP** and unzip it.
-2. Zip just the `skill/linkedin-cover-copartner` folder (on macOS: right-click the folder > Compress).
+2. Zip just the `linkedin-cover-copartner` folder (on macOS: right-click the folder > Compress).
 3. In Claude, open **Customize > Skills**.
 4. Click **+**, then **Create skill**, then **Upload a skill**, and choose that ZIP.
 5. Make sure the skill is toggled on.
 
 **Claude Code**
-Copy the `skill/linkedin-cover-copartner` folder into your skills directory (for example `~/.claude/skills/`).
+Copy the `linkedin-cover-copartner` folder into your skills directory (for example `~/.claude/skills/`).
 
 ---
 
@@ -141,7 +141,7 @@ Ask me anything missing before you design.
 ## Repository structure
 
 ```
-skill/linkedin-cover-copartner/
+linkedin-cover-copartner/
 ├── SKILL.md                         workflow, gates, phases
 ├── references/
 │   ├── intake-questions.md          question bank with option sets
@@ -159,8 +159,8 @@ examples/                            final banners and view simulations
 
 ```bash
 pip install pillow
-python skill/linkedin-cover-copartner/scripts/simulate_views.py my_banner.png views.png
-python skill/linkedin-cover-copartner/scripts/measure_from_screenshot.py 11 722 16 38 217 86
+python linkedin-cover-copartner/scripts/simulate_views.py my_banner.png views.png
+python linkedin-cover-copartner/scripts/measure_from_screenshot.py 11 722 16 38 217 86
 ```
 
 ---
