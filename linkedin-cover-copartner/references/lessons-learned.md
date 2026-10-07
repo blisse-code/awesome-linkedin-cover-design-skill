@@ -1,4 +1,4 @@
-# Lessons learned (from a ~25-round real engagement)
+# Lessons learned (from a real 23-version engagement)
 
 Each item cost at least one revision. Read before Phase 3.
 

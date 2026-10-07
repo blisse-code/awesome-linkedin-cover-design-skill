@@ -7,7 +7,7 @@ It asks the questions a good designer would ask first (goal, audience, proof, ta
 ![Final banner, light](examples/final_light_1584x396.png)
 ![Final banner, dark](examples/final_dark_1584x396.png)
 
-Built from a real 20+ round design engagement. Every rule in the skill exists because a draft failed without it.
+Built from a real 23-version design engagement. Every rule in the skill exists because a draft failed without it.
 
 ---
 
